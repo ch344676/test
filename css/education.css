@@ -1,0 +1,94 @@
+.container{position: relative;
+border:2px solid #F5F3F3;
+background-color: #F5F3F3;
+
+height: 550px;;
+
+}
+#ex1{text-align: center ;
+font-weight: bold;
+}
+h4{color:white;}
+.bx2{margin-top:300px;}
+
+
+.speech-bubble {
+  background-color: #787373;
+  border: 1px solid #787373;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  padding-left: 0px;
+  position: absolute;
+}
+
+.speech-bubble .arrow {
+  border-style: solid;
+  position: absolute;
+}
+.speech-bubble .bx{
+background-color: white;
+border: 1px solid #DEDEDE;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius:5px;
+width: 300px;
+height: 75px;
+text-align: center;
+padding-left: -20px;
+position: absolute;
+
+}
+
+
+/* .speech-bubble .bxx{color:black;} */
+.bottom {
+  border-color: #787373 transparent transparent transparent;
+  border-width: 20px 20px 20px 0px;
+  right: -20px;
+}
+.cb1{position: absolute;
+left:20%;
+top:20%;}
+.bx2{position: absolute;
+left:20%;
+top :8%;}
+
+/*------------vertical line dot list-------- */
+
+.vl {
+  border-left: 6px solid #2DCEF9;
+  height: 500px;
+  position: absolute;
+  left: 48.5%;
+  /* margin-left: -3px; */
+  top:8%;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #2DCEF9;
+  border-radius: 50%;
+  display: block;
+  margin-top: 55px;
+  margin-left: -15px;
+  position:relative;
+  padding-top: -220px;
+}
+
+.sp{visibility: hidden;}
+/*----side2 ---*/
+
+
+.bottomm {
+  border-color: #787373 transparent transparent transparent;
+  border-width: 20px 0px 20px 20px;
+  left: -20px;
+}
+.bxr{
+position: absolute;
+left:52%;
+/*padding-bottom:200px;*/
+top:33%;}
+.mbxr{position: absolute;
+left:52%;
+top:77%}
